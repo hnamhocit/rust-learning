@@ -1,5 +1,4 @@
 fn main() {
-    // Simple HTTP server example
     use std::io::{Read, Write};
     use std::net::{TcpListener, TcpStream};
     use std::thread;
@@ -31,6 +30,5 @@ fn main() {
         }
     }
 
-    // Uncomment the next line to start the server
     start_server();
 }
